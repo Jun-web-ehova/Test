@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="style.min.css" />
+</head>
+<body>
+  <div class="top">
+    <h1 class="top__title">キャッチコピー</h1>
+  </div>
+
+  
+  <div class="about">
+    <h2 class="about__title">About</h2>
+    <p class="about__text">COACHTECH(コーチテック)はフリーランス特化型のオンラインコーチングプログラミングスクールです。<br>プログラミング未経験の型でも、<span>「独自の学習ノウハウ」</span>でフリーランスエンジニアを目指すことができます。</p>
+  </div>
+
+  
+  <div class="blog">
+    <h2 class="blog__title">ブログ</h2>
+    
+    <div class="blog__card-box">
+      <div class="blog__card">
+        <div class="blog__card-img"><img src="img/blog__eyecatch1.jpg"></div>
+        <h3 class="blog__card-text">コーチテックブログのタイトルがここには入ります。</h3>
+      </div>
+
+      <div class="blog__card">
+        <div class="blog__card-img"><img src="img/blog__eyecatch2.jpg"></div>
+        <h3 class="blog__card-text">コーチテックブログのタイトルがここには入ります。</h3>
+      </div>
+
+      <div class="blog__card">
+        <div class="blog__card-img"><img src="img/blog__eyecatch3.jpg"></div>
+        <h3 class="blog__card-text">コーチテックブログのタイトルがここには入ります。</h3>
+      </div>
+    </div>
+  </div>
+
+  
+  <div class="contact">
+    <h2 class="contact__title">問い合わせ</h2>
+    
+    <form class="contact__form" action="" method="post">
+      <table>
+        <tr>
+          <th><label for="name">名前</label></th>
+          <td class="contact__form-input"><input type="text" name="name" size="50"></td>
+        </tr>
+        <tr>
+          <th><label for="email">メールアドレス</label></th>
+          <td class="contact__form-input"><input type="text" name="email" size="50" ></td>
+        </tr>
+        <tr>
+          <th><label for="select">用件</label></th>
+          <td class="contact__form-select"><select name="select"><option>広告掲載について</option></select></td>
+        </tr>
+        <tr>
+          <th><label for="message">内容</label></th>
+          <td><textarea class="contact__form-input" name="message" cols="53" rows="10"></textarea></td>
+        </tr>
+      </table>
+      
+      <input class="contact__form--btn-gray" type="submit" value="削除">
+      <input class="contact__form--btn-blue" type="submit" value="送信">
+    </form>
+  </div>
+
+
+</body>
+</html>
