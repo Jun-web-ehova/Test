@@ -19,11 +19,11 @@ console.log(result);
 
 const leapyear = (year) => {
   if (year % 4 == 0 && year % 100 != 0 || year % 400 == 0) {
-    console.log("うるう年です");
+    return "うるう年です";
   } else {
-    console.log("うるう年ではありません");
+    return "うるう年ではありません";
   }
 };
 
-const year = prompt("年数を入力してください");
-leapyear(year);
+console.log("2020年は" + leapyear(2020));
+console.log("2021年は" + leapyear(2021))
